@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badge | Pedal UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+  >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+  >
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+      
+    </button>
+  
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Badges</h1>
+      <p>Badges are used to highlight an item's status for quick recognition.</p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Basic badges</div>
+      <div class="main-content-description">
+        Example of badges containing text with different colors.
+      </div>
+      <div class="badge-contaienr">
+        <span class="badge badge-clearance">Clearance</span>
+        <span class="badge badge-price-drop">Price Drop</span>
+        <span class="badge badge-best-seller">Best Seller</span>
+        <span class="badge badge-best-value">Best Value</span>
+        <span class="badge badge-just-in">Just In</span>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge%2520badge-clearance%2522%253EClearance%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-price-drop%2522%253EPrice%2520Drop%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-best-seller%2522%253EBest%2520Seller%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-best-value%2522%253EBest%2520Value%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520badge-just-in%2522%253EJust%2520In%253C%252Fspan%253E"
+          style="width: 503px; height: 166px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr>
+
+      <div class="main-content-heading">Badges on icons</div>
+      <div class="main-content-description">Badges can be used on icons with buttons to show their current status.</div>
+      <div class="badge-container">
+        <button class="btn-primary-icon">
+          <div class="badge-icon">
+            <span class="material-icons-outlined md-36">
+              shopping_cart
+            </span>
+            <span class="badge-icon-value">3</span>
+          </div>
+        </button>
+        <button class="btn-primary-icon">
+          <div class="badge-icon">
+            <span class="material-icons-round md-36">
+              notifications
+            </span>
+            <span class="badge-icon-value">3</span>
+          </div>
+        </button>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-icon%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-36%2522%253E%250A%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-value%2522%253E3%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-icon%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520md-36%2522%253E%250A%2520%2520%2520%2520%2520%2520notifications%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-icon-value%2522%253E3%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fbutton%253E"
+          style="width: 437px; height: 369px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+     </div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

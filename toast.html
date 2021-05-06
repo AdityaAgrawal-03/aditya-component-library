@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toast | Pedal UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+  >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  >
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+    </button>
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Toast</h1>
+      <p>The toast is used to show alerts on top of an overlay. The toast will close itself when the close button is clicked, or after a timeout — the default is 3 seconds. The toast component is used to give feedback to users after an action has taken place.</p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Status toasts</div>
+      <div class="main-content-description">Status toasts change the color of toasts in context with user action.</div>
+      <div class="toast-container">
+        <button class="btn btn-primary btn-success-toast">Show success toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert success-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+        
+        <button class="btn btn-primary btn-error-toast">Show error toast</button>
+        <div class="alert-container">
+          <div class="alert error-alert error-toast">
+            <span class="material-icons-outlined">
+              error
+            </span>
+            This is an error alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-warning-toast">Show warning toast</button>
+        <div class="alert-container">
+          <div class="alert warning-alert warning-toast">
+            <span class="material-icons-outlined">
+              warning
+            </span>
+            This is a warning alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-info-toast">Show info toast</button>
+        <div class="alert-container">
+          <div class="alert info-alert info-toast">
+            <span class="material-icons-outlined">
+              feedback
+            </span>
+            This is an info alert — check it out!
+          </div>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2857%2C62%2C70%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=21px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-success-toast%2522%253EShow%2520success%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520success-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-error-toast%2522%253EShow%2520error%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520error-alert%2520error-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520error%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-warning-toast%2522%253EShow%2520warning%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning-alert%2520warning-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520warning%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-info-toast%2522%253EShow%2520info%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520info-alert%2520info-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520feedback%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 687px; height: 737px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Changing toast position</div>
+      <div class="main-content-description">You can change the toast position on the screen.</div>
+      <div class="toast-container">
+        <button class="btn btn-primary btn-top-toast">Show top toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert top-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-top-right-toast">Show top right toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert top-right-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+      
+        <button class="btn btn-primary btn-top-left-toast">Show top left toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert top-left-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-bottom-left-toast">Show bottom left toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert bottom-left-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-bottom-toast">Show bottom toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert bottom-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-bottom-right-toast">Show bottom right toast</button>
+        <div class="alert-container">
+          <div class="alert success-alert bottom-right-toast">
+            <span class="material-icons-outlined md-24">
+            task_alt
+            </span>
+            This is a success alert — check it out!
+          </div>
+        </div>
+      
+      </div>
+
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2857%2C62%2C70%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=21px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-top-toast%2522%253EShow%2520top%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520top-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-top-right-toast%2522%253EShow%2520top%2520right%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520top-right-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-top-left-toast%2522%253EShow%2520top%2520left%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520top-left-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-bottom-left-toast%2522%253EShow%2520bottom%2520left%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520bottom-left-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-bottom-toast%2522%253EShow%2520bottom%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520bottom-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-bottom-right-toast%2522%253EShow%2520bottom%2520right%2520toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522alert%2520success-alert%2520bottom-right-toast%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520%2520%2520task_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 734px; height: 1160px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+    </div>
+
+
+  </main>
+  <script src="./toast.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

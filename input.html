@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      >
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      >
+      <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+  <title>Input | Pedal UI</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+      
+    </button>
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Input</h1>
+      <p>The input component is a component that is used to get user input in a text field. </p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Basic Usage</div>
+      <div class="main-content-description">Here's a basic usage example of the Input component : </div>
+      <div class="input-container">
+        <input placeholder="Basic Usage" class="input-text">
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cinput%2520placeholder%253D%2522Basic%2520Usage%2522%2520class%253D%2522input-text%2522%253E"
+          style="width: 470px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Input with different sizes</div>
+      <div class="main-content-description">Input component comes in four different sizes - xs, sm, md, lg.</div>
+      <div class="input-container">
+        <input placeholder="extra small size" class="input-text input-text-xs">
+        <input placeholder="small size" class="input-text input-text-sm">
+        <input placeholder="medium size" class="input-text input-text-md">
+        <input placeholder="big size" class="input-text input-text-lg">
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cinput%2520placeholder%253D%2522extra%2520small%2520size%2522%2520class%253D%2522input-text%2520input-text-xs%2522%253E%250A%253Cinput%2520placeholder%253D%2522small%2520size%2522%2520class%253D%2522input-text%2520input-text-sm%2522%253E%250A%253Cinput%2520placeholder%253D%2522medium%2520size%2522%2520class%253D%2522input-text%2520input-text-md%2522%253E%250A%253Cinput%2520placeholder%253D%2522big%2520size%2522%2520class%253D%2522input-text%2520input-text-lg%2522%253E"
+          style="width: 628px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+      
+      <div class="main-content-heading">Form Inputs</div>
+      <div class="main-content-description">Let's look at some of the form elements.</div>
+      <div class="input-container">
+        <form>
+          <input type="email" placeholder="Email" class="input-text" required>
+          <input type="password" placeholder="Password" class="input-text" required>
+        </form>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cform%253E%250A%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522Email%2522%2520class%253D%2522input-text%2522%2520required%253E%250A%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520class%253D%2522input-text%2522%2520required%253E%250A%253C%252Fform%253E"
+          style="width: 670px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Input with icons</div>
+      <div class="main-content-description">You can also embed icons in input fields to enhance it's meaning.</div>
+      <div class="input-container">
+        <div class="input-icon-container">
+          <span class="material-icons-round input-icon">
+            search
+            </span>
+          <input type="search" class="input-text-icon">
+        </div>
+        
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-icon-container%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520input-icon%2522%253E%250A%2520%2520%2520%2520search%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cinput%2520type%253D%2522search%2522%2520class%253D%2522input-text-icon%2522%253E%250A%253C%252Fdiv%253E"
+          style="width: 437px; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Validation</div>
+      <div class="main-content-description">Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.</div>
+      <div class="input-container">
+        <input placeholder="error validation" class="input-text input-text-error-validation">
+        <input placeholder="success validation" class="input-text input-text-success-validation">
+      </div>
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cinput%2520placeholder%253D%2522error%2520validation%2522%2520class%253D%2522input-text%2520input-text-error-validation%2522%253E%250A%253Cinput%2520placeholder%253D%2522success%2520validation%2522%2520class%253D%2522input-text%2520input-text-success-validation%2522%253E"
+  style="width: 692px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+
+    </div>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

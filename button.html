@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+  <title>Button | Pedal UI</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+    </button>
+  </nav>
+
+  <main>
+
+    <div class="main-heading">
+      <h1>Buttons</h1>
+      <p> Buttons allow users to take actions, and make choices, with a single tap.</p>
+    </div>
+
+    <hr>
+    
+    <div class="main-content">
+      <div class="main-content-heading">Contained Buttons</div>
+      <div class="main-content-description">Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.</div>
+      <div class="button-container">
+        <button class="btn btn-default">Default</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-default%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E"
+          style="width: 470px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Buttons with icons and label</div>
+      <div class="main-content-description">Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more easily than plain text. For example, if you have a delete button you can label it with a dustbin icon.</div>
+      <div class="button-container">
+        <button class="btn btn-secondary btn-secondary-icon-label">
+          <span class="material-icons-outlined md-light">
+            delete
+          </span>
+            Remove from Cart
+        </button>
+        <button class="btn btn-primary btn-primary-icon-label">
+          <span class="material-icons-outlined md-light">
+            add_shopping_cart
+          </span>
+            Add to Cart
+        </button>
+        <button class="btn btn-secondary btn-secondary-icon-label">
+          <span class="material-icons-outlined md-light">
+            favorite_border
+          </span>
+            Add to Wishlist
+        </button>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-secondary-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520%2520%2520delete%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520Remove%2520from%2520Cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520add_shopping_cart%250A%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520Cart%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520favorite_border%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520Add%2520to%2520Wishlist%250A%253C%252Fbutton%253E"
+          style="width: 462px; height: 406px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Icon Buttons</div>
+      <div class="main-content-description">Icon buttons are commonly found in app bars and toolbars.
+      Icons are also appropriate for toggle buttons that allow a single choice to be selected or deselected, such as adding or removing a star to an item.</div>
+      <div class="button-container">
+        <button class="btn-primary-icon">
+          <span class="material-icons-outlined md-36">
+            shopping_cart
+          </span>
+        </button>
+        <button class="btn-primary-icon">
+          <span class="material-icons-round md-36">
+            person
+          </span>
+        </button>
+        <button class="btn-primary-icon">
+          <span class="material-icons-round md-36">
+            notifications
+          </span>
+        </button>
+        <button class="btn-primary-icon">
+          <span class="material-icons-round md-36">
+            cancel
+            </span>
+        </button>
+      </div>
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-36%2522%253E%250A%2520%2520%2520%2520shopping_cart%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520md-36%2522%253E%250A%2520%2520%2520%2520person%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520md-36%2522%253E%250A%2520%2520%2520%2520notifications%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary-icon%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520md-36%2522%253E%250A%2520%2520%2520%2520cancel%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+  style="width: 420px; height: 442px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Floating Action Button</div>
+      <div class="main-content-description">A floating action button (FAB) performs the primary, or most common, action on a screen.</div>
+      <div class="button-container">
+        <button class="btn btn-primary btn-floating-action">
+          <span class="material-icons-round md-30">
+            add
+            </span>
+        </button>
+        <button class="btn btn-secondary btn-floating-action">
+          <span class="material-icons-round">
+            favorite
+            </span>
+        </button>
+        <button class="btn btn-primary btn-floating-action">
+          <span class="material-icons-round">
+            create
+            </span>
+        </button>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating-action%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2520md-30%2522%253E%250A%2520%2520%2520%2520add%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-floating-action%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2522%253E%250A%2520%2520%2520%2520favorite%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating-action%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2522%253E%250A%2520%2520%2520%2520create%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+          style="width: 486px; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+    </div>  
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

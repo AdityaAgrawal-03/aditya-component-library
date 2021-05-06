@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+  >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  >
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+  <title>Alert | Pedal UI</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+      
+    </button>
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Alerts</h1>
+      <p>Alerts are used to communicate a state that affects a system, feature or page.</p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Status alerts</div>
+      <div class="main-content-description">This alert offers four status levels that set a distinctive icon and color.</div>
+      <div class="alert-container">
+        <div class="alert success-alert">
+          <span class="material-icons-outlined md-24">
+          task_alt
+          </span>
+          This is a success alert — check it out!
+        </div>
+        <div class="alert error-alert">
+          <span class="material-icons-outlined">
+            error
+          </span>
+          This is an error alert — check it out!
+        </div>
+        <div class="alert warning-alert">
+          <span class="material-icons-outlined">
+            warning
+          </span>
+          This is a warning alert — check it out!
+        </div>
+        <div class="alert info-alert">
+          <span class="material-icons-outlined">
+            feedback
+          </span>
+          This is an info alert — check it out!
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success-alert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-24%2522%253E%250A%2520%2520task_alt%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520This%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520error-alert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520error%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520This%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning-alert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520warning%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520This%2520is%2520a%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520info-alert%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520feedback%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520This%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%250A%253C%252Fdiv%253E"
+          style="width: 420px; height: 516px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+
+
+    </div>
+  </main>
+  
+
+  
+  <!-- <div class="alert-section">
+    <div class="alert alert-message">
+      <span class="material-icons md-36">
+        check_circle
+        </span>
+      <span style="margin-left: 0.5rem">Transaction successful</span>
+    </div>
+    <div class="alert alert-message">
+      <span class="material-icons md-36">
+        warning
+        </span>
+        <span style="margin-left: 0.5rem">Transaction failed</span>
+    </div>
+  </div> -->
+  <script src="./app.js"></script>
+</body>
+</html>

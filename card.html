@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      >
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      >
+      <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+  <title>Card | Pedal UI</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+      
+    </button>
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Cards</h1>
+      <p>Cards are surfaces that display content and actions on a single subject.</p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Default Card</div>
+      <div class="main-content-description">The default card contains elements like text, image and buttons.</div>
+      <div class="card-container">
+        <div class="card card-shadow">
+          <div class="card-header">
+            <img src="./assests/bicycle-images/bicycle-1.jpg" alt="bicycle-1" class="card-image">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>2021 Polygon Premier 4 - Blue/ Dark Sand - 27.5 inch Mountain Bike</h3></div>
+            <div class="card-price">₹ 20,000</div>
+            <button class="btn btn-secondary btn-secondary-icon-label">
+              <span class="material-icons-outlined md-light">
+                favorite_border
+              </span>
+                Add to Wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassests%252Fbicycle-images%252Fbicycle-1.jpg%2522%2520alt%253D%2522bicycle-1%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253E2021%2520Polygon%2520Premier%25204%2520-%2520Blue%252F%2520Dark%2520Sand%2520-%252027.5%2520inch%2520Mountain%2520Bike%253C%252Fh3%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%252020%252C000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-icon-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Wishlist%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="width: 778px; height: 369px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Cards with badges</div>
+      <div class="main-content-description">Cards with badges highlights the current status of subject, it is used to attract user's attention.</div>
+      <div class="card-container">
+        <div class="card card-shadow card-badge">
+          <span class="badge badge-best-value">Best Value</span>
+          <div class="card-header">
+            <img src="./assests/bicycle-images/bicycle-1.jpg" alt="bicycle-1" class="card-image">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>2021 Polygon Premier 4 - Blue/ Dark Sand - 27.5 inch Mountain Bike</h3></div>
+            <div class="card-price">₹ 20,000</div>
+            <button class="btn btn-secondary btn-secondary-icon-label">
+              <span class="material-icons-outlined md-light">
+                favorite_border
+              </span>
+                Add to Wishlist
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2520card-badge%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-best-value%2522%253EBest%2520Value%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassests%252Fbicycle-images%252Fbicycle-1.jpg%2522%2520alt%253D%2522bicycle-1%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253E2021%2520Polygon%2520Premier%25204%2520-%2520Blue%252F%2520Dark%2520Sand%2520-%252027.5%2520inch%2520Mountain%2520Bike%253C%252Fh3%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%252020%252C000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-icon-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Wishlist%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 778px; height: 387px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+      <div class="main-content-heading">Cards with dismiss</div>
+      <div class="main-content-description">Cards with dismiss comes with a button that removes the card from the surface.</div>
+      <div class="card-container">
+        <div class="card card-shadow card-badge card-dismiss">
+          <span class="badge badge-best-value">Best Value</span>
+          <div class="card-header">
+            <img src="./assests/bicycle-images/bicycle-1.jpg" alt="bicycle-1" class="card-image">
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              <h3>2021 Polygon Premier 4 - Blue/ Dark Sand - 27.5 inch Mountain Bike</h3></div>
+            <div class="card-price">₹ 20,000</div>
+            <button class="btn btn-secondary btn-secondary-icon-label">
+              <span class="material-icons-outlined md-light">
+                favorite_border
+              </span>
+                Add to Wishlist
+            </button>
+          </div>
+          <button class="btn btn-primary-icon">
+            <span class="material-icons-round">
+              cancel
+              </span>
+          </button>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2520card-badge%2520card-dismiss%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-best-value%2522%253EBest%2520Value%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassests%252Fbicycle-images%252Fbicycle-1.jpg%2522%2520alt%253D%2522bicycle-1%2522%2520class%253D%2522card-image%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253E2021%2520Polygon%2520Premier%25204%2520-%2520Blue%252F%2520Dark%2520Sand%2520-%252027.5%2520inch%2520Mountain%2520Bike%253C%252Fh3%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%252020%252C000%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary-icon-label%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520md-light%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Wishlist%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-round%2522%253E%250A%2520%2520%2520%2520%2520%2520cancel%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+          style="width: 778px; height: 479px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+
+      <hr>
+
+    </div>
+  </main>
+  
+  <script src="./app.js"></script>
+</body>
+</html>
