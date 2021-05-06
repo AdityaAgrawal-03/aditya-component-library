@@ -183,6 +183,7 @@ nav {
 
 .nav-links li:first-child {
   margin-top: 10vh;
+  font-weight: bold;
 }
 
 .burger {
@@ -506,6 +507,46 @@ main {
 
 .input-text-error-validation:focus { border: 2px solid var(--dialog-alert-yesBtn-hover); }
 .input-text-success-validation:focus { border: 2px solid var(--input-successValidation);}
+
+/* images */
+
+.image-container {
+  display: flex;
+  width: 100%;
+}
+
+.image-sm,
+.image-md,
+.image-lg {
+  object-fit: cover;
+  margin-right: 0.5rem;
+  
+}
+
+.image-sm {
+  width: 15rem;
+  height: 10rem;
+}
+
+.image-md {
+  object-fit: cover;
+  width: 20rem;
+  height: 15rem;
+}
+
+.image-lg {
+  object-fit: cover;
+  width: 25rem;
+  height: 20rem;
+}
+
+.image-round {
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  width: 10rem;
+  height: 10rem;
+}
 
 /* cards */
 
