@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assests/favicon.ico" type="image/x-icon">
+  <title>Modal | Pedal UI</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="./index.html">pedal ui</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./get-started.html">Get Started</a></li>
+      <li><a href="./avatar.html">Avatar</a>
+        <li><a href="./alert.html">Alert</a></li>
+        <li><a href="./badge.html">Badge</a></li>
+        <li><a href="./button.html" target="_self">Button</a>
+        <li><a href="./card.html">Card</a></li>
+        <li><a href="./input.html">Input</a></li>
+        <li><a href="./image.html">Image</a></li>
+        <li><a href="./list.html">List</a></li>
+        <li><a href="./link.html">Link</a></li>
+        <li><a href="./dialog.html">Dialog</a></li>
+        <li><a href="./grid.html">Grid</a></li>
+        <li><a href="./slider.html">Slider</a></li>
+        <li><a href="./toast.html">Toast</a></li>
+        <li><a href="./typography.html">Typography</a></li>
+    </ul>
+
+    <button class="burger">
+      <span class="hamburger"></span>
+      </button>
+  </nav>
+
+  <main>
+    <div class="main-heading">
+      <h1>Dialog</h1>
+      <p>Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.</p>
+    </div>
+
+    <hr>
+
+    <div class="main-content">
+      <div class="main-content-heading">Modal Dialog</div>
+      <div class="main-content-description">A modal dialog is a window overlaid on either the primary window or another dialog window. Content behind a modal dialog is inert, meaning that users cannot interact with it.</div>
+      <div class="dialog-container">
+        <button class="btn btn-primary openModalBtn">Open modal</button>
+        <div class="dialog-content-container dialog-modal">
+          <section class="dialog-content">
+            <header class="dialog-header"><h3>Modal Title</h3></header>
+            <div class="dialog-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vel iste voluptatum! Aliquam modi delectus a quos, nobis illum et libero nisi, earum omnis vitae vero, id error praesentium maxime!</p>
+            </div>
+            <footer class="dialog-footer">
+              <button class="btn btn-primary dialog-modal-closeBtn">Close</button>
+            </footer>
+          </section>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520openModalBtn%2522%253EOpen%2520modal%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522dialog-content-container%2520dialog-modal%2522%253E%250A%2520%2520%253Csection%2520class%253D%2522dialog-content%2522%253E%250A%2520%2520%2520%2520%253Cheader%2520class%253D%2522dialog-header%2522%253E%253Ch3%253EModal%2520Title%253C%252Fh3%253E%253C%252Fheader%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dialog-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E...%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522dialog-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520dialog-modal-closeBtn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%253C%252Fsection%253E%250A%253C%252Fdiv%253E"
+  style="width: 653px; height: 295px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+      
+      <hr>
+
+      <div class="main-content-heading">Alert Dialog</div>
+      <div class="main-content-description">Alert Dialog component is used to interrupt the user with a mandatory confirmation or action.</div>
+      <div class="dialog-container">
+        <button class="btn btn-primary openAlertBtn">Discard</button>
+        <div class="dialog-content-container dialog-alert">
+          <section class="dialog-content">
+            <header class="dialog-header"><h3>Discard Changes?</h3></header>
+            <div class="dialog-body">
+              <p>Are you sure you want to discard all of your notes?</p>
+            </div>
+            <footer class="dialog-footer">
+              <button class="btn btn-default dialog-alert-noBtn">No</button>
+              <button class="btn btn-primary dialog-alert-yesBtn">Yes</button>
+            </footer>
+          </section>
+        </div>
+      </div>
+      <div class="main-content-code">
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=141%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520openAlertBtn%2522%253EDiscard%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522dialog-content-container%2520dialog-alert%2522%253E%250A%2520%2520%253Csection%2520class%253D%2522dialog-content%2522%253E%250A%2520%2520%2520%2520%253Cheader%2520class%253D%2522dialog-header%2522%253E%253Ch3%253EDiscard%2520Changes%253F%253C%252Fh3%253E%253C%252Fheader%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dialog-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EAre%2520you%2520sure%2520you%2520want%2520to%2520discard%2520all%2520of%2520your%2520notes%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522dialog-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-default%2520dialog-alert-noBtn%2522%253ENo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520dialog-alert-yesBtn%2522%253EYes%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%253C%252Fsection%253E%250A%253C%252Fdiv%253E"
+          style="width: 626px; height: 314px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      
+    </div>
+  </main>
+  
+  <script src="./app.js"></script>
+  <script src="./dialog.js"></script>
+</body>
+</html>
